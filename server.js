@@ -2,7 +2,7 @@
   const path = require("path");
   const app = express();
   const PORT = process.env.PORT || 3001;
-  const routes = require("./routes/routes"); // Import the routes
+  const routes = require("./routes/routes.js"); // Import the routes
   
   app.use(express.urlencoded({ extended: true }));
   app.use(express.json());
